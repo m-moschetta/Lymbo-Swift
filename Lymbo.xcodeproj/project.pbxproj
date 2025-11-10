@@ -56,12 +56,12 @@
 		A1000033 = {
 			isa = PBXGroup;
 			children = (
-				A1000034 /* Lymbo */,
+				A1000034,
 				A1000035 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1000034 /* Lymbo */ = {
+		A1000034 = {
 			isa = PBXGroup;
 			children = (
 				A1000002 /* LymboApp.swift */,
@@ -69,6 +69,14 @@
 				A1000037 /* Theme */,
 				A1000031 /* Info.plist */,
 			);
+			sourceTree = "<group>";
+		};
+		A1000035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000030 /* Lymbo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A1000036 /* Views */ = {
@@ -81,6 +89,14 @@
 				A1000041 /* Profile */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A1000037 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A1000006 /* ColorScheme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 		A1000038 /* Connect */ = {
@@ -120,22 +136,6 @@
 				A1000028 /* ProfileView.swift */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		A1000037 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				A1000006 /* ColorScheme.swift */,
-			);
-			path = Theme;
-			sourceTree = "<group>";
-		};
-		A1000035 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1000030 /* Lymbo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5RQLC57A8N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -382,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 5RQLC57A8N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
@@ -406,15 +408,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000047 /* Build configuration list for PBXProject "Lymbo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1000048 /* Debug */,
-				A1000049 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A1000043 /* Build configuration list for PBXNativeTarget "Lymbo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -424,8 +417,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A1000047 /* Build configuration list for PBXProject "Lymbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000048 /* Debug */,
+				A1000049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = A1000046 /* Project object */;
 }
-

@@ -131,12 +131,15 @@ struct SwipeableCardView: View {
                                     }
                                     .padding(.horizontal, 4)
                                 }
+                                .scrollDisabled(false)
                             }
                             .padding(.horizontal, 20)
                             .padding(.bottom, 20)
+                            .zIndex(1003) // Priorità massima per il carousel
+                            .allowsHitTesting(true) // Abilita hit testing per il carousel anche quando flipped
                         }
                     }
-                    .scrollDisabled(false) // Permetti scroll quando necessario
+                    .scrollDisabled(isFlipped) // Disabilita scroll verticale quando mostra il profilo
                 }
                 .rotation3DEffect(
                     .degrees(isFlipped ? flipRotation : -180 + flipRotation),
@@ -149,16 +152,17 @@ struct SwipeableCardView: View {
                         // Quando non è flipped, il fronte è nascosto (mostriamo il retro di default)
                         return flipRotation >= 90 ? 1.0 : 0.0
                     } else {
-                        // Quando è flipped, il fronte è visibile
-                        return flipRotation < 90 ? 1.0 : 0.0
+                        // Quando è flipped, il fronte è visibile se flipRotation >= -90 (non ancora tornato indietro)
+                        return flipRotation >= -90 ? 1.0 : 0.0
                     }
                 }())
                 .allowsHitTesting({
-                    // Quando flipped, disabilita hit testing per permettere swipe sul contenitore principale
+                    // Quando flipped, abilita hit testing solo per il carousel del portfolio
                     if !isFlipped {
                         return flipRotation >= 90
                     } else {
-                        // Quando flipped, disabilita hit testing del ScrollView per permettere swipe
+                        // Quando flipped, disabilita hit testing del ScrollView principale
+                        // Il carousel ha il suo allowsHitTesting separato
                         return false
                     }
                 }())
@@ -328,6 +332,12 @@ struct SwipeableCardView: View {
                                         .padding(.horizontal, 4)
                                     }
                                     .frame(height: 70)
+                                    .highPriorityGesture(
+                                        DragGesture(minimumDistance: 0)
+                                            .onChanged { _ in
+                                                // Quando si scrolla il carousel, ha priorità sullo swipe della card
+                                            }
+                                    )
                                 }
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(.leading, 16)
@@ -347,8 +357,8 @@ struct SwipeableCardView: View {
                         // Quando non è flipped, il retro è visibile di default (flipRotation < 90)
                         return flipRotation < 90 ? 1.0 : 0.0
                     } else {
-                        // Quando è flipped, il retro è nascosto (mostriamo il fronte)
-                        return flipRotation >= 90 ? 1.0 : 0.0
+                        // Quando è flipped, il retro è visibile se flipRotation < -90 (tornato indietro)
+                        return flipRotation < -90 ? 1.0 : 0.0
                     }
                 }())
                 .allowsHitTesting({
@@ -387,16 +397,69 @@ struct SwipeableCardView: View {
                         Spacer()
                     }
                     .allowsHitTesting(true)
-                    .zIndex(1000) // Assicura che sia sempre sopra tutto quando mostra profilo
+                    .zIndex(1001) // Sopra l'area gesti ma sotto il carousel
                 }
+                
+                // Area dedicata per i gesti quando è flippata - copre tutta la card tranne il carousel
+                if isFlipped {
+                    GeometryReader { gestureGeometry in
+                        VStack(spacing: 0) {
+                            // Area principale per i gesti match/back (tutto tranne la parte bassa con il carousel)
+                            Rectangle()
+                                .fill(Color.clear)
+                                .frame(height: gestureGeometry.size.height - 180) // Lascia spazio per il carousel (circa 180px)
+                                .contentShape(Rectangle())
+                                .gesture(
+                                    DragGesture(minimumDistance: 10)
+                                        .onChanged { value in
+                                            // Gestisci swipe verso destra (match) o sinistra (back)
+                                            if abs(value.translation.width) > abs(value.translation.height) {
+                                                dragOffset = value.translation
+                                                rotation = Double(value.translation.width / 10)
+                                            }
+                                        }
+                                        .onEnded { value in
+                                            let swipeThreshold: CGFloat = 100
+                                            
+                                            if abs(value.translation.width) > swipeThreshold {
+                                                if value.translation.width > 0 {
+                                                    // Swipe verso destra = Match
+                                                    onSwipe(.right)
+                                                } else {
+                                                    // Swipe verso sinistra = Back alle immagini
+                                                    withAnimation(.spring(response: 0.6, dampingFraction: 0.7)) {
+                                                        isFlipped = false
+                                                        flipRotation = 0
+                                                    }
+                                                }
+                                            }
+                                            
+                                            // Reset della posizione con animazione
+                                            withAnimation(.spring(response: 0.4, dampingFraction: 0.8)) {
+                                                dragOffset = .zero
+                                                rotation = 0
+                                            }
+                                        }
+                                )
+                            
+                            // Area vuota per il carousel - non intercetta i gesti, permette al carousel di funzionare
+                            Spacer()
+                                .frame(height: 180)
+                                .allowsHitTesting(false) // Non intercetta i gesti, permette al carousel di riceverli
+                        }
+                    }
+                    .allowsHitTesting(true)
+                    .zIndex(1000) // Sopra il contenuto ma sotto il carousel
+                }
+                
                 
             }
             .offset(dragOffset)
             .rotationEffect(.degrees(rotation))
             .gesture(
-                DragGesture()
+                DragGesture(minimumDistance: 10)
                     .onChanged { value in
-                        // Se la card non è ancora ruotata
+                        // Gesture solo quando NON è flippata (mostra immagini portfolio)
                         if !isFlipped {
                             // Se si trascina verso destra, gestisci la rotazione
                             if value.translation.width > 0 {
@@ -408,19 +471,18 @@ struct SwipeableCardView: View {
                                 flipRotation = max(0, min(180, flipRotation))
                                 
                                 isDraggingFlip = true
-                            } else {
-                                // Se si trascina verso sinistra, permetti lo swipe normale (pass)
+                            } else if abs(value.translation.width) > abs(value.translation.height) {
+                                // Se si trascina verso sinistra E il movimento è principalmente orizzontale, permetti lo swipe normale (pass)
+                                // Questo permette allo scroll verticale di funzionare
                                 dragOffset = value.translation
                                 rotation = Double(value.translation.width / 10)
                                 isDraggingFlip = false
                             }
-                        } else {
-                            // Se la card è già ruotata, permetti lo swipe normale (like/pass)
-                            dragOffset = value.translation
-                            rotation = Double(value.translation.width / 10)
                         }
+                        // Quando è flippata, i gesti sono gestiti dall'area dedicata in basso
                     }
                     .onEnded { value in
+                        // Gesture solo quando NON è flippata (mostra immagini portfolio)
                         if !isFlipped {
                             if isDraggingFlip {
                                 // Gestisci la rotazione quando si trascina verso destra
@@ -463,32 +525,8 @@ struct SwipeableCardView: View {
                                     rotation = 0
                                 }
                             }
-                        } else if isFlipped {
-                            // Swipe normale quando la card è ruotata
-                            let swipeThreshold: CGFloat = 100
-                            
-                            if abs(value.translation.width) > swipeThreshold {
-                                if value.translation.width > 0 {
-                                    // Swipe verso destra = Like
-                                    onSwipe(.right)
-                                } else {
-                                    // Swipe verso sinistra = Pass
-                                    onSwipe(.left)
-                                }
-                            } else if value.translation.height < -swipeThreshold {
-                                showOverlays = false
-                                onSwipe(.up)
-                            } else if value.translation.height > swipeThreshold {
-                                showOverlays = true
-                                onSwipe(.down)
-                            }
-                            
-                            // Reset della posizione con animazione
-                            withAnimation(.spring(response: 0.4, dampingFraction: 0.8)) {
-                                dragOffset = .zero
-                                rotation = 0
-                            }
                         }
+                        // Quando è flippata, i gesti sono gestiti dall'area dedicata in basso
                     }
             )
         }
