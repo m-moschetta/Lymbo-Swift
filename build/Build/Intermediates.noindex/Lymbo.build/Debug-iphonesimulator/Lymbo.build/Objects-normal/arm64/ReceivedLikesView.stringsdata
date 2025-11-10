@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mariomoschetta/Lymbo Swift/Views/Links/ReceivedLikesView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Every day you'll see 5 to 10 random profiles out of the creatives that have liked you in the past 30 days.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 16
+        }
+      }
+    ]
+  },
+  "version": 1
+}

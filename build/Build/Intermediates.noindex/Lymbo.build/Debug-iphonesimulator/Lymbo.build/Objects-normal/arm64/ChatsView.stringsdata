@@ -1,0 +1,32 @@
+{
+  "source": "/Users/mariomoschetta/Lymbo Swift/Views/Links/ChatsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "The Chats Tab is where all the chats are! Creatives you match will be shown here with a \"Met Here\" Category Tag.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Met Here",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type a message...",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 106
+        }
+      }
+    ]
+  },
+  "version": 1
+}

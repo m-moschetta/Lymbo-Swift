@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mariomoschetta/Lymbo Swift/Views/Links/LinksView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Links",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 47
+        }
+      }
+    ]
+  },
+  "version": 1
+}

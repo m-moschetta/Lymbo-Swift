@@ -1,0 +1,149 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/Lymbo-primary.dia",
+    "emit-module-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/Lymbo-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/Lymbo-primary-emit-module.dia",
+    "pch" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/Lymbo-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/Lymbo-primary.swiftdeps"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/LymboApp.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LymboApp~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Theme/ColorScheme.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ColorScheme~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Connect/ConnectView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ConnectView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Connect/CreativeDetailsView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/CreativeDetailsView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Connect/PreferencesView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/PreferencesView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Connect/SwipeableCardView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/SwipeableCardView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Connect/WorksCarouselView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/WorksCarouselView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Events/EventsView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/EventsView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Links/ArchiveView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ArchiveView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Links/ChatsView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ChatsView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Links/LinksView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/LinksView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Links/ReceivedLikesView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ReceivedLikesView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/MainTabView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/MainTabView~partial.swiftmodule"
+  },
+  "/Users/mariomoschetta/Lymbo Swift/Views/Profile/ProfileView.swift" : {
+    "const-values" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.swiftconstvalues",
+    "dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.d",
+    "diagnostics" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.dia",
+    "index-unit-output-path" : "/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.o",
+    "llvm-bc" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.bc",
+    "object" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.o",
+    "swift-dependencies" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView.swiftdeps",
+    "swiftmodule" : "/Users/mariomoschetta/Lymbo Swift/build/Build/Intermediates.noindex/Lymbo.build/Debug-iphonesimulator/Lymbo.build/Objects-normal/arm64/ProfileView~partial.swiftmodule"
+  }
+}

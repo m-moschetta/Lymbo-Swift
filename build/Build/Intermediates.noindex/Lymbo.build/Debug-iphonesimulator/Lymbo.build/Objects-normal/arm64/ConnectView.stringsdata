@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mariomoschetta/Lymbo Swift/Views/Connect/ConnectView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Connect",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 24
+        }
+      }
+    ]
+  },
+  "version": 1
+}

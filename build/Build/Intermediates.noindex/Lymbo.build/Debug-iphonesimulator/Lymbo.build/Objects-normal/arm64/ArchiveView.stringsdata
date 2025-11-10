@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mariomoschetta/Lymbo Swift/Views/Links/ArchiveView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "The Archive Tab allows you to save all the people you swiped right in the app. The last 100 Creatives you swipe right will be shown here.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 17
+        }
+      }
+    ]
+  },
+  "version": 1
+}
