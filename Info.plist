@@ -48,6 +48,35 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.lymbo.app</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.234733535199-k5fev72jgbtmrktshfokcbums5vbdr98</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Lymbo ha bisogno di accedere alle tue foto per caricare immagini del profilo e delle tue opere.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Lymbo ha bisogno di salvare immagini nella tua libreria foto.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Lymbo ha bisogno di accedere alla fotocamera per scattare foto del profilo e delle tue opere.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Lymbo ha bisogno della tua posizione per trovare la città più vicina e mostrarti creativi nella tua zona.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Lymbo ha bisogno della tua posizione per trovare la città più vicina e mostrarti creativi nella tua zona.</string>
 </dict>
 </plist>
 
